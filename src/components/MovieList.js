@@ -3,10 +3,6 @@ import React, { Component } from 'react'
 const MovieList = (props) => {
 
 
-        function handleClick() {
-            console.log("Button Clicked")
-        }
-
         return (
             <div className='row'>
 
@@ -19,7 +15,7 @@ const MovieList = (props) => {
                                 <h5 className='card-title'>{movie.name}</h5>
                                 <p className='card-text'>{movie.overview}</p>
                                 <div className='d-flex justify-content-between align-items-center'>
-                                    <button type='button' onClick={handleClick} className='btn btn-md btn-outline-danger'>Delete</button>
+                                    <button type='button' onClick={(event) => props.deleteMovieProp(movie)} className='btn btn-md btn-outline-danger'>Delete</button>
                                     <h2><span className='badge bg-primary'>{movie.rating}</span></h2>
                                 </div>
                             </div>
