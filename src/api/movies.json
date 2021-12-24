@@ -17,16 +17,9 @@
     {
       "name": "Blitz 007",
       "rating": "11",
-      "overview": "A tough, renegade cop with a gay sidekick is dispatched to take down a serial killer who has been targeting police officers. AÇIKLAMA AÇIKLAMA",
+      "overview": "A tough, renegade cop with a gay sidekick is dispatched to take down a serial killer who has been targeting police officers.",
       "imageURL": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qCPMjT8Ld8tvs1zs7LY2jpKlRIK.jpg",
       "id": 4
-    },
-    {
-      "name": "asd",
-      "rating": "2",
-      "imageURL": "asd",
-      "overview": "sda",
-      "id": 5
     }
   ]
 }

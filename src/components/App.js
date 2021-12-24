@@ -2,6 +2,7 @@ import React from 'react'
 import SearchBar from './SearchBar'
 import MovieList from './MovieList'
 import AddMovie from "./AddMovie";
+import EditMovie from "./EditMovie";
 import axios from "axios";
 import {
     BrowserRouter as Router,
@@ -58,7 +59,9 @@ class App extends React.Component {
             (movie) => {
                 return movie.name.toLowerCase().indexOf(this.state.searchQuery.toLowerCase()) !== -1
             }
-        )
+        ).sort( (a, b) => {
+            return a.id < b.id ? 1 : a.id > b.id ? -1 : 0
+        });
 
         return (
             <Router>
@@ -95,6 +98,8 @@ class App extends React.Component {
                         )}>
 
                         </Route>
+
+                        <Route path="/edit/:id" component={EditMovie} />
 
                     </Switch>
                 </div>
