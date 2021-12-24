@@ -1,25 +1,32 @@
 {
   "movies": [
     {
-      "name": "The Matrix 3",
-      "rating": "8.1",
+      "name": "The Matrix",
+      "rating": "8.5",
       "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
       "imageURL": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
       "id": 1
     },
     {
-      "name": "The Matrix Reloaded",
+      "name": "The Matrix Reloaded to Nothing",
       "rating": "6.9",
-      "imageURL": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/jBegA6V243J6HUnpcOILsRvBnGb.jpg",
       "overview": "Six months after the events depicted in The Matrix, Neo has proved to be a good omen for the free humans, as more and more humans are being freed from the matrix and brought to Zion, the one and only stronghold of the Resistance. Neo himself has discovered his superpowers including super speed, ability to see the codes of the things inside the matrix and a certain degree of pre-cognition.",
+      "imageURL": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/jBegA6V243J6HUnpcOILsRvBnGb.jpg",
       "id": 2
     },
     {
-      "name": "Blitz 007",
+      "name": "Blitz 000000007",
       "rating": "11",
       "overview": "A tough, renegade cop with a gay sidekick is dispatched to take down a serial killer who has been targeting police officers.",
       "imageURL": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qCPMjT8Ld8tvs1zs7LY2jpKlRIK.jpg",
       "id": 4
+    },
+    {
+      "name": "Venom: Zehirli Öfke 2",
+      "rating": "7.2",
+      "imageURL": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/57AIZGL3flQk4pGf0Ih5MKNcEC7.jpg",
+      "overview": "Vücudunu paylaştığı Venom ile yaşamaya alışmaya çalışan Eddie Brock, artık eski hayatına geri dönmek ister. Venom tüm gününü kötü adamları döverek ve muazzam açlığını tatmin ederek geçirmek isterken, Eddie bir gazeteci olarak kariyerine yeniden başlamak için mücadele eder. Eddie, başarısız bir infazdan sonra hapishaneden kaçan seri katil Cletus Kasady ile röportaj yaparak kariyerini alevlendirmeyi planlar. Ancak onunla iletişime geçmesi Eddie'nin kendisini beklenmedik maceraların içinde bulmasına neden olur.",
+      "id": 5
     }
   ]
 }
