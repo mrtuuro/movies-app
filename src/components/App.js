@@ -4,7 +4,7 @@ import MovieList from './MovieList'
 import axios from "axios";
 // require('dotenv').config()
 //
-// console.log(process.env.API_KEY)
+ 
 
 
 class App extends React.Component {
@@ -16,6 +16,7 @@ class App extends React.Component {
     }
 
     async componentDidMount() {
+        console.log(process.env.REACT_APP_EBU_NUMBER)
         const response = await axios.get("https://api.themoviedb.org/3/movie/popular?api_key=4cd87ea2a846e785bd9bd66bfd5490ea&language=en-US&page=1")
         console.log(response.data.results)
         this.setState({movies: response.data.results})
