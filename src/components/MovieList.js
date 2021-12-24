@@ -6,11 +6,11 @@ const MovieList = (props) => {
         return (
             <div className='row'>
 
-                {props.movies.map((movie) => (
+                {props.movies.map((movie, i) => (
                     
-                    <div key={movie.id} className='col-lg-4'>
+                    <div key={i} className='col-lg-4'>
                         <div className='card mb-4 shadow-sm'>
-                            <img src={`https://image.tmdb.org/t/p/w600_and_h900_bestv2${movie.imageURL}`} className='card-img-top' alt='Test' />
+                            <img src={movie.imageURL} className='card-img-top' alt='Test' />
                             <div className='card-body'>
                                 <h5 className='card-title'>{movie.name}</h5>
                                 <p className='card-text'>{movie.overview}</p>

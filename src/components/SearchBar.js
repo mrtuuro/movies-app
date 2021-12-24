@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class SearchBar extends Component {
-
-
 
     handleFormSubmit = (event) => {
         event.preventDefault();
@@ -21,9 +20,13 @@ class SearchBar extends Component {
                     </div>
 
                     <div className="col-12">
-                        <button type="button" className="btn btn-md btn-danger" style={{float:'right'}} >
-                            Add Movie
-                        </button>
+                        <Link
+                            to="/add"
+                            type="button"
+                            className="btn btn-md btn-danger"
+                            style={{float:'right'}} >
+                                Add Movie
+                        </Link>
                     </div>
                 </div>
             </form>
