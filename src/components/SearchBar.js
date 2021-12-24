@@ -19,6 +19,12 @@ class SearchBar extends Component {
                             placeholder="Search a movie"
                         />
                     </div>
+
+                    <div className="col-12">
+                        <button type="button" className="btn btn-md btn-danger" style={{float:'right'}} >
+                            Add Movie
+                        </button>
+                    </div>
                 </div>
             </form>
         )
